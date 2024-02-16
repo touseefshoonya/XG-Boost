@@ -33,6 +33,7 @@ then in next cloumn we calculate Residual Residulal=(Package-BE) which is input 
 ![alt text](image-1.png)
 
 Now,In a decision tree, when deciding where to split the data at a node, we use INFO GAIN,similarly here we will use a decider known as SIMILARITY SCORE
+
 Formula to calculate Similarity score:
 
 ![alt text](image-2.png)
