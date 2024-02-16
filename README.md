@@ -48,7 +48,7 @@ here it is alfter calculation
 
 Step2 :
 
-Sort CGPA and then take average adjecent numbers.Now splitting will be done on these 3 values
+Sort CGPA and then take average adjecent numbers.Now splitting will be done on these 3 values(5.85,7.1,8.25)
 
 ![alt text](image-4.png)
 
