@@ -24,12 +24,16 @@ It also handles numerical data as XG regressor and classification data as XG cla
 By default it uses Decison Tree as the algorithm
 
 Final model formula= Base model+Eta*DT1 where Base modelor Base estimator(BE) is average.Here it average package
+
+![alt text](image.png)
+
+
 then in next cloumn we calculate Residual Residula=(Package-BE) which is input to Decision tree.
 
 ![alt text](image-1.png)
 
 
-![alt text](image.png)
+
 
 
 
