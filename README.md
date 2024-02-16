@@ -52,9 +52,28 @@ Sort CGPA and then take average adjecent numbers.Now splitting will be done on t
 
 ![alt text](image-4.png)
 
+Splitting done and again we will calculate SIMILARITY SCORE of Left Node(LN) then Righ node (RN) then finally we will calculate GAIN
+
+We will select the Node with highest GAIN value
 
 
 ![alt text](image-5.png)
+
+
+Here we have selected node of CGPA 8.25 because this is having GAIN of 17.52 and we again follow the steps and start the splitting
+
+
+![alt text](image-6.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
+
+Final stage:
+
+
+![alt text](image-9.png)
+![alt text](image-10.png)
+![alt text](image-11.png)
+
 
 
 
