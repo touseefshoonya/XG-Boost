@@ -60,7 +60,7 @@ We will select the Node with highest GAIN value
 ![alt text](image-5.png)
 
 
-Here we have selected node of CGPA 8.25 because this is having GAIN of 17.52 and we again follow the steps and start the splitting
+Here we have selected node of CGPA 8.25 because this is having GAIN of 17.52 and we again follow the above steps and start splitting again
 
 
 ![alt text](image-6.png)
@@ -68,6 +68,24 @@ Here we have selected node of CGPA 8.25 because this is having GAIN of 17.52 and
 ![alt text](image-8.png)
 
 Final stage:
+
+Model 2 means Prediction 2 .Here DT's Similarty score are (0.7,-2.05,3.7).For each CGPA we are predicting package here.Eg.for CGPA 6.7,since it is less than 8.25 hence it will come to left node of 5.85,here we will check if its true.Found out it is not true so it goes to right node of 5.58 whose similarity score -2.05
+
+Calculation=Base model+ETA*DT1
+           =7.37*(0.3)*(-2.05)
+           =6.69
+
+This is our 1st prediction 
+
+similarly we can do it for all the other values which will be 8.41,6.69 and 7.51 
+
+This is our final prediction.
+
+We have not done any further split because there will single single values in each node and calculing SS score will not be significant.Max we can till depth=6,Here we went till depth=2 only which was sufficient
+
+*Important thing to note here is In XGBoost, a decrease in residual (often referred to as "reduction in loss") signifies that the addition of a new tree in the ensemble has led to a better fit of the model to the training data.
+
+Residuals: In the context of gradient boosting, residuals refer to the errors or the differences between the actual target values and the predicted values made by the current ensemble of trees.
 
 
 ![alt text](image-9.png)
