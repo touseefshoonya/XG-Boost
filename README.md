@@ -28,9 +28,22 @@ Final model formula= Base model+Eta*DT1 where Base modelor Base estimator(BE) is
 ![alt text](image.png)
 
 
-then in next cloumn we calculate Residual Residula=(Package-BE) which is input to Decision tree.
+then in next cloumn we calculate Residual Residulal=(Package-BE) which is input to Decision tree for stage
 
 ![alt text](image-1.png)
+
+Now,In a decision tree, when deciding where to split the data at a node, we use INFO GAIN,similarly here we will use a decider known as SIMILARITY SCORE
+Formula to calculate Similarity score:
+
+![alt text](image-2.png)
+
+where Alpha =0
+
+here it is alfter calculation
+
+![alt text](image-3.png)
+
+
 
 
 
