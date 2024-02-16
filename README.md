@@ -23,7 +23,9 @@ Flexibility,Performance,Scalibilty,Robust to Outliers,missing value and Overfitt
 It also handles numerical data as XG regressor and classification data as XG classifier
 By default it uses Decison Tree as the algorithm
 
-Final model formula= Base model+Eta*DT1 where Base modelor Base estimator(BE) is average.Here it average package
+Final model formula= Base model+Eta*DT1 where Base model or Base estimator(BE) is average of Package.
+
+Why Avegrage of Package? because this is the Target variable.We want to calculate package based on CGPA
 
 ![alt text](image.png)
 
@@ -43,6 +45,16 @@ where Alpha =0
 here it is alfter calculation
 
 ![alt text](image-3.png)
+
+Step2 :
+
+Sort CGPA and then take average adjecent numbers.Now splitting will be done on these 3 values
+
+![alt text](image-4.png)
+
+
+
+![alt text](image-5.png)
 
 
 
