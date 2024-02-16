@@ -83,7 +83,7 @@ This is our final prediction.
 
 We have not done any further split because there will single single values in each node and calculing SS score will not be significant.Max we can till depth=6,Here we went till depth=2 only which was sufficient
 
-*Important thing to note here is In XGBoost, a decrease in residual (often referred to as "reduction in loss") signifies that the addition of a new tree in the ensemble has led to a better fit of the model to the training data.
+***Important thing to note here is In XGBoost, a decrease in residual (often referred to as "reduction in loss") signifies that the addition of a new tree in the ensemble has led to a better fit of the model to the training data.
 
 Residuals: In the context of gradient boosting, residuals refer to the errors or the differences between the actual target values and the predicted values made by the current ensemble of trees.
 
