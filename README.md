@@ -71,8 +71,8 @@ Final stage:
 
 Model 2 means Prediction 2 .Here DT's Similarty score are (0.7,-2.05,3.7).For each CGPA we are predicting package here.Eg.for CGPA 6.7,since it is less than 8.25 hence it will come to left node of 5.85,here we will check if its true.Found out it is not true so it goes to right node of 5.58 whose similarity score -2.05
 
-Calculation=Base model+ETA*DT1
-           =7.37*(0.3)*(-2.05)
+Calculation=Base model+ETA * DT1
+           =7.37+(0.3)*(-2.05)
            =6.69
 
 This is our 1st prediction 
