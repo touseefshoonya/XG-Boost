@@ -16,6 +16,21 @@ XGBoost, short for Extreme Gradient Boosting, is like a team of decision-making 
 
 In essence, XGBoost is about teamwork and continuous improvement, leveraging the collective wisdom of multiple models to make accurate predictions.
 
+Benefits:
+
+Flexibility,Performance,Scalibilty,Robust to Outliers,missing value and Overfitting
+
+It also handles numerical data as XG regressor and classification data as XG classifier
+By default it uses Decison Tree as the algorithm
+
+Final model formula= Base model+Eta*DT1 where Base modelor Base estimator(BE) is average.Here it average package
+then in next cloumn we calculate Residual Residula=(Package-BE) which is input to Decision tree.
+
+![alt text](image-1.png)
+
+
+![alt text](image.png)
+
 
 
 
